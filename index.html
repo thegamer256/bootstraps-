@@ -97,49 +97,65 @@
             </div>
         </div>
 
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3">
-                <h3>Meet our Culinary Specialists</h3>
-            </div>
-            <div class="col col-sm col-md">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="Alberto Somayya">
-                    <div class="media-body">
-                        <h2 class="mt-0">Alberto Somayya</h2>
-                        <h4>Executive Chef</h4>
-                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-                        International experience having worked closely with
-                        whos-who in the culinary world, he specializes in
-                        creating mouthwatering Indo-Italian fusion experiences.
-                        </p>
+        <div class="card-body">
+            <form>
+              <div class="form-group row">
+                <label for="GuestNumbers" class="col-12 col-md-4 col-form-label">Numbers of guest</label>
+                <div class="col-12 col-md-7">
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" value=""/>1
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                          <input type="radio" class="form-check-input" value=""/>2
+                      </label>
+                    </div>
+                  
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                          <input type="radio" class="form-check-input" value=""/>3
+                      </label>
+                    </div>
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                          <input type="radio" class="form-check-input" value=""/>4
+                      </label>
+                    </div>
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                          <input type="radio" class="form-check-input" value=""/>5
+                      </label>
+                    </div>
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                          <input type="radio" class="form-check-input" value=""/>6
+                      </label>
                     </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-6">
-                <div class="card">
-                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <form>
-                        <div class="form-group row">                    
-                            <label for="numberofguests" class="col-6 col-md-3 col-form-label">Number of Guests</label>                    
-                            <div class="col-md-2">                   
-                                <input type="radio" class="form-control" id="1guest" name="1guest" value="1">
-                                <label for="1guest>1 </label>                    
-                            </div>              
-                        </div>
+              <div class="form-group row">
+                <label for="DateTimes" class="col-12 col-md-4 col-form-label">Date and Time</label>
+                <div class="col-12 col-md-3">
+                  <input type="date" class="form-control" id="date" name="date" placeholder="Date"/>
+                </div>
 
-                    </form>
-                    
+                <div class="col-12 col-md-4">
+                  <input type="time" class="form-control" id="time" name="time" placeholder="Time"/>
                 </div>
-                <div class="form-group row">
-                    <div class="offset-md-3 col-md-10">
-                        <button type="submit" class="btn btn-primary">Reserve</button>
-                    </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="offset-md-4 col-md-10">
+                  <button type="submit" class="btn btn-primary">Reserve</button>
                 </div>
-            </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
 
     <footer class="footer">
