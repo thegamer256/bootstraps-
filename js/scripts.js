@@ -1,10 +1,26 @@
-    // <!-- <script>
+$(document).ready(function() {
+
+    $('#loginButton').on('click', function() {
+        $('#loginModal').modal()
+    });
+    $('#loginModal').on('hidden.bs.modal', function(e) {})
+    $(".dismiss").on('click', function() {
+        $('#loginModal').modal('hide')
+    });
+    $('#reserveTable').on('click', function() {
+        $('#reserveModal').modal()
+    });
+    $('#reserveModal').on('hidden.bs.modal', function(e) {})
+    $(".dismiss").on('click', function() {
+        $('#reserveModal').modal('hide')
+    });
+});
+
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
         });
         
-    // </script> -->
-    // <script>
+
         $(document).ready(function(){
             $("#mycarousel").carousel( { interval: 2000 } );
             // $("#carousel-pause").click(function(){
@@ -26,4 +42,4 @@
                 }
             });
         });
-    // </script>
+    
